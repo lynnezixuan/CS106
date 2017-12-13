@@ -1,0 +1,51 @@
+# You should put your custom graph data in here.
+# Under FLAGS section, set heuristic=true if you want to allow
+# the app's heuristic function to use straight-line X/Y distance as
+# a heuristic between vertexes in your graph.
+
+IMAGE
+map-custom.jpg
+500
+372
+
+FLAGS
+heuristic=false
+
+VERTICES
+The Twins;205;32
+Eyrie;360;77
+Inn at the Crossroads;284;118
+Harrenhal;268;152
+Riverrun;186;125
+Ashemark;106;168
+Casterky Rock;72;198
+Dragonstone;411;190
+King's Landing;333;231
+Storm's End;371;336
+Highgarden;131;367
+Pyke;65;84
+
+EDGES
+The Twins;Eyrie;1614
+The Twins;Harrenhal;1355
+The Twins;Riverrun;949
+The Twins;Pyke;1493
+Eyrie;Inn at the Crossroads;863
+Inn at the Crossroads;Harrenhal;375
+Inn at the Crossroads;Dragonstone;1459
+Inn at the Crossroads;King's Landing;1231
+Harrenhal;Riverrun;863
+Riverrun;Ashemark;908
+Riverrun;Pyke;1277
+Ashemark;Casterky Rock;453
+Ashemark;Pyke;934
+Casterky Rock;Highgarden;1790
+Casterky Rock;Pyke;1142
+Dragonstone;King's Landing;881
+Dragonstone;Storm's End;1513
+King's Landing;Storm's End;1116
+Storm's End;Highgarden;2419
+King's Landing;Highgarden;2435
+Casterky Rock;King's Landing;2630
+Harrenhal;King's Landing;1023
+Harrenhal;Ashemark;1627

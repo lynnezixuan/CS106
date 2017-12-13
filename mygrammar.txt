@@ -1,0 +1,5 @@
+DA::=DT ID|DS ID
+DT::=DB|DS
+DB::=int|double|char|string
+DS::=Vector < DT >|Queue < DT >|Stack < DT >|Set < DT >|Map < DT , DT >
+ID::=temp1|temp2|result1|result2
